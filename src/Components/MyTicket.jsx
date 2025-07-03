@@ -18,7 +18,7 @@ function MyTicket() {
                 <Sidebar />
                 <div className="col-10 p-0">
 
-        <div >
+        <div>
             <div className="container my_ticket row">
             <p className="text-center heading">List of Ticket</p>
                 <div className="row m-0">

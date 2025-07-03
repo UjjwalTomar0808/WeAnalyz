@@ -15,12 +15,12 @@ const Navbar = () => {
         navigate('/');
     };
     return (
-            <div className="container-fluid navbar w-100">
+            <div className="container-fluid navbar" style={{ transform: 'scale(0.95)', transformOrigin: 'top left' }}>
                 <div className="row w-100">
                     <div className="col-2">
                         <h1 className="title">Helpdesk</h1>
                     </div>
-                    <div className="offset-8 col-2 d-flex align-items-center">
+                    <div className="offset-7 col-2 d-flex align-items-center">
                         <ButtonGroup disableElevation variant="contained" aria-label="Disabled elevation buttons">
                             <Button className="bg-dark text-white fs-5 fw-bold navBtn">BM</Button>
                             <Button className="bg-white text-dark fs-5 fw-bold navBtn">BI</Button>

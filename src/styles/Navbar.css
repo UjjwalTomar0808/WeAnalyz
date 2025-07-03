@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: visible;
 }
 
 .navbar {
-    background-color: #55D6C2;
     height: 6rem;
-    width: 80vw;
+    width: 110%;
+    background-color: #55D6C2;
 }
 
 .title {
@@ -20,6 +21,7 @@
 }
 
 .navBtn {
+    margin-left: 0;
     height: 2.7rem;
 }
 
