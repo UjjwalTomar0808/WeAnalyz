@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    overflow: hidden;
+    /* background-color: #d8e7da; */
+    
+}
+
+/* SIDEBAR CSS */
+
+.sidebar {
+    background-color: #E0DFDF;
+    height: 85vh;
+    color: black;
+    z-index: 2;
+    height: calc(100vh - 9rem);
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+
+.sidebar svg {
+    height: 2rem;
+}
+
+.sideLinks {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarLinks {
+    font-size: 1.6rem;
+}
+
+.loginBtn {
+    width: 8rem;
+    font-size: 1.5rem;
+}
+
+/* DASHBOARD CSS */
+
+.heading {
+    /* margin: 3rem; */
+    font-size: 3rem;
+}
+
+.box {
+    color: #05386B;
+    height: 27.3rem;
+    width: 24.8rem;
+    border-radius: 2rem;
+    margin: 0 1rem;
+}
+
+#box-1 {
+    background-color: #2F82FF;
+}
+
+#box-2 {
+    background-color: #0BFF68;
+}
+
+#box-3 {
+    background-color: #FE594E;
+}
+
+#box-4 {
+    background-color: #FCFF6C;
+}
+
+.box p {
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+    font-size: 2rem;
+}
+
+.box h1 {
+    font-size: 6.5rem;
+}
+
+/* NewTicket CSS */
+
+.new_ticket {
+    font-size: 1rem;
+    margin: 0%;
+    padding: 0%;
+    background-color: #f1eeee;
+}
+
+.new_ticket label {
+    font-size: 1.7rem;
+    /* text-align: center; */
+}
+
+.new_ticket input,
+textarea {
+    padding: 0;
+    height: 4rem;
+    border: none;
+    outline: none;
+    background-color: #DADADA;
+    border-radius: 0.6rem;
+}
+
+.new_ticket_btn {
+    border: none;
+    border-radius: 0.6rem;
+    /* background-color: #55D6C2; */
+}
+
+/* MyTicket CSS */
+
+.my_ticket {
+    font-size: 1.6rem;
+    /* padding: 0; */
+    margin: 0;
+    /* position:absolute; */
+}
+
+.searchIcon {
+    position: absolute;
+    right: 96rem;
+    transform: scale(2);
+}
+
+.data div {
+    background-color: #DADADA;
+    /* margin-top: 0; */
+}
+
+.starIcon {
+    color: #949494;
+}
+
+.coloredStar {
+    color: #FFC632;
+}
+
+.inProgess {
+    background: #5CDB95 !important;
+    border-radius: 0.5rem;
+}
+
+.onHold {
+    background: #05386B !important;
+    border-radius: 0.5rem;
+}
+
+.closed {
+    background: #494949 !important;
+    border-radius: 0.5rem;
+}
