@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     /* overflow: hidden; */
-    overflow: hidden;
+    /* overflow: hidden; */
     /* background-color: #d8e7da; */
     
 }
@@ -12,10 +12,10 @@
 
 .sidebar {
     background-color: #E0DFDF;
-    height: 85vh;
+    height: 100vh;
     color: black;
     z-index: 2;
-    height: calc(100vh - 9rem);
+    /* height: calc(100vh - 9rem); */
 }
 
 .sidebar ul {

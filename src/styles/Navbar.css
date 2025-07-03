@@ -6,7 +6,8 @@
 
 .navbar {
     background-color: #55D6C2;
-    height: 9rem;
+    height: 6rem;
+    width: 80vw;
 }
 
 .title {
@@ -15,7 +16,7 @@
     font-style: italic;
     font-weight: 700;
     line-height: 5.6rem;
-    margin-left: 2.4rem;
+    margin-left: 0.4rem;
 }
 
 .navBtn {

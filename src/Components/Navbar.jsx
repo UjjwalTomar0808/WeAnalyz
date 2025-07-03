@@ -15,8 +15,7 @@ const Navbar = () => {
         navigate('/');
     };
     return (
-        <>
-            <div className="container-fluid navbar">
+            <div className="container-fluid navbar w-100">
                 <div className="row w-100">
                     <div className="col-2">
                         <h1 className="title">Helpdesk</h1>
@@ -32,7 +31,7 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-        </>
+       
     )
 }
 
